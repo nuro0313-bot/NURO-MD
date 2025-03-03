@@ -37,7 +37,7 @@ DESCRIPTION: process.env.DESCRIPTION || "*© CREATED BY THARAKA DILSHAN....*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/kevmdg.png",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> HI I AM *NURO-MD*⚡",
+ALIVE_MSG: process.env.ALIVE_MSG || "👋 HELLO I AM ONLINE NOW💝🍃\n> HI I AM *NURO-MD*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
