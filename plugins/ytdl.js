@@ -125,7 +125,3 @@ const yt = await ytsearch(q);
 }
 
 });
-
-}
-
-});
