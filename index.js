@@ -112,7 +112,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*╭━━━━👋 *HELLO${pushname}*━━━━╮/n/n┃➢*THIS IS NURO MD CONNECTED MASSEGE🍃✨*/n/n┃➢*YOUR PREFIX=${prefix}*/n/n┃➢*OWNER NUM=94721017862*\n┃\n└━━━━━━━━━━*`;
+  let up = `*╭━━━━👋 *HELLO DEAR USER*━━━━╮/n/n┃➢*THIS IS NURO MD CONNECTED MASSEGE🍃✨*/n/n┃➢*YOUR PREFIX=${prefix}*/n/n┃➢*OWNER NUM=94721017862*\n┃\n└━━━━━━━━━━*`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/kevmdg.png` }, caption: up })
   }
   })
