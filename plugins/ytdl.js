@@ -6,7 +6,6 @@ const { ytsearch, ytmp3, ytmp4 } = require('@dark-yasiya/yt-dl.js');
 
 cmd({ 
     pattern: "mp4", 
-    alias: ["video", "song"], 
     react: "🎥", 
     desc: "Download Youtube song", 
     category: "main", 
@@ -53,7 +52,7 @@ cmd({
             document: { url: data.result.download_url }, 
             mimetype: "video/mp4", 
             fileName: `${data.result.title}.mp4`, 
-            caption: `> *${yts.title}*\n *ɴᴜʀᴏ ᴍᴅ♡*`
+            caption: ` *${yts.title}*\n *NURO MD*`
         }, { quoted: mek });
 
     } catch (e) {
@@ -66,7 +65,6 @@ cmd({
 
 cmd({ 
      pattern: "mp3", 
-     alias: ["ytdl3", "play"], 
      react: "🎶", 
      desc: "Download Youtube song",
      category: "main", 
@@ -101,7 +99,7 @@ const yt = await ytsearch(q);
 ┇๏ *Author* -  ${yts.author.name} 
 ┇๏ *Link* -  ${yts.url}
 ╰━━❑━⪼
- *©ɴᴜʀᴏ ᴍᴅ♡*`;
+ *NURO MD*`;
 
 
 
@@ -116,7 +114,7 @@ const yt = await ytsearch(q);
         document: { url: data.result.downloadUrl }, 
         mimetype: "audio/mpeg", 
         fileName: `${data.result.title}.mp3`, 
-        caption: `*©ɴᴜʀᴏ ᴍᴅ♡*`
+        caption: ` *NURO MD*`
     }, { quoted: mek });
 
 } catch (e) {
