@@ -112,7 +112,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there NURO-MD User! n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet NURO-MD WhatsApp Bot.\n\n *Thanks for using NURO-MD \ud83d\udea9* \n\n*YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\n> https://github.com/NURO1316/NURO-MD.git \n\nENJOI BOT 🤛\n\n> © Powered BY NURO`;
+  let up = `*╭━━━━👋 *HELLO${pushname}*━━━━╮/n/n┃➢*THIS IS NURO MD CONNECTED MASSEGE🍃✨*/n/n┃➢*YOUR PREFIX=${prefix}*/n/n┃➢*OWNER NUM=94721017862*\n┃\n└━━━━━━━━━━*`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/kevmdg.png` }, caption: up })
   }
   })
